@@ -7,7 +7,8 @@
 }
 
 :root{
-    --color-primary-orange: #EA6D27;
+    --color-primary-orange: #EA6D27; 
+    --color-primary-orange-10: rgba(234, 109, 46,0.1) ; 
     --color-secondary-white: #FFFFFF;
     --color-secondary-dark: #101821;
     --color-secondary-l-gray: #5C6574;
@@ -41,4 +42,10 @@
     border-radius: 15px 3px;
     text-decoration: none;
     font-family: var(--font-title)
+}
+
+h2{
+    font-family: var(--font-title);
+    font-size: var(--font-headline-h2-size);
+    color
 }
